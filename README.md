@@ -3,4 +3,5 @@
 **Conteúdos Abordados**
 
  - Angular Material
+ - Aula 3 - Adicionando Toolbar
 
