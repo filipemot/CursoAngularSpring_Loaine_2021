@@ -5,4 +5,5 @@
  - Aula 2 - Angular Material
  - Aula 3 - Adicionando Toolbar
  - Aula 4 - Criando o Módulo de Cursos e Usando Roteamento com Lazy Loading
+ - Aula 5 - Customizando o Tema do Angular Material
 
