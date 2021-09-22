@@ -27,3 +27,4 @@ node_modules/
 crud-angular-spring/node_modules/
 node_modules
 **node_modules
+*/node_modules/*
