@@ -8,3 +8,4 @@
  - Aula 5 - Customizando o Tema do Angular Material
  - Aula 6 - CRUD Angular + Spring | 06 - Criando Material Table para Listar Cursos
  - Aula 7 - CRUD Angular + Spring | 07 - CSS do Material Table e Criando um Módulo App Material
+ - Aula 8 - CRUD Angular + Spring | 08 - Criando um Service no Angular
