@@ -10,3 +10,4 @@
  - Aula 7 - CRUD Angular + Spring | 07 - CSS do Material Table e Criando um Módulo App Material
  - Aula 8 - CRUD Angular + Spring | 08 - Criando um Service no Angular
  - Aula 9 - CRUD Angular + Spring | 09 - Chamada HTTP Get no Angular e RXJS
+ - Aula 10 - CRUD Angular + Spring | 10 - Lista de Cursos: Spinner (Carregando)
