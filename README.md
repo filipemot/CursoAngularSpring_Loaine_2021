@@ -12,3 +12,4 @@
  - Aula 9 - CRUD Angular + Spring | 09 - Chamada HTTP Get no Angular e RXJS
  - Aula 10 - CRUD Angular + Spring | 10 - Lista de Cursos: Spinner (Carregando)
  - Aula 11 - CRUD Angular + Spring | 11 - Lista de Cursos: Tratamento de Erros e MatDialog
+ - Aula 12 - CRUD Angular + Spring | 12 - Lista de Cursos: Pipe para mostrar ícone
