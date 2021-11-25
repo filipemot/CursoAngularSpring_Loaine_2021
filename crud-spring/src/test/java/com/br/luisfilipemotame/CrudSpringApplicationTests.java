@@ -1,4 +1,4 @@
-package com.br.luisfilipemotame.crudspring;
+package com.br.luisfilipemotame;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
