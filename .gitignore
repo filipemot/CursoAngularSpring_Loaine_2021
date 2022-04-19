@@ -30,3 +30,4 @@ node_modules
 */node_modules/*
 crud-angular-spring/package-lock.json
 /*.bak
+/crud-angular-spring/.angular
