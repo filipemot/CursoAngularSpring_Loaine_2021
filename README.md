@@ -1,4 +1,4 @@
-# Curso Angular e Spring - Loaine - 2021
+# Curso Angular e Spring - Loaine - 2021/2022
 
 **Conteúdos Abordados**
 
@@ -17,3 +17,4 @@
  - Aula 14 - CRUD Angular + Spring | 14: Hello World com Spring
  - Aula 15 - CRUD Angular + Spring | 15: Listar Cursos (API HTTP GET)
  - Aula 16 - CRUD Angular + Spring | 16: Banco de Dados H2 e Conectando o Angular na API Spring
+ - Aula 17 - CRUD Angular + Spring | 17: Update da Versão Angular (ng update) e Spring
