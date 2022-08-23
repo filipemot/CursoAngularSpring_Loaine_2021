@@ -1,8 +1,8 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed } from "@angular/core/testing";
 
-import { CourseResolver } from './course.resolver';
+import { CourseResolver } from "./course.resolver";
 
-describe('CourseResolver', () => {
+describe("CourseResolver", () => {
   let resolver: CourseResolver;
 
   beforeEach(() => {
@@ -10,7 +10,7 @@ describe('CourseResolver', () => {
     resolver = TestBed.inject(CourseResolver);
   });
 
-  it('should be created', () => {
+  it("should be created", () => {
     expect(resolver).toBeTruthy();
   });
 });
