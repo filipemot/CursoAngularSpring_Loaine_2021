@@ -1,19 +1,20 @@
-import { Component, OnInit } from "@angular/core";
-import { MatDialog } from "@angular/material/dialog";
-import { ActivatedRoute, Router } from "@angular/router";
-import { Observable, of } from "rxjs";
-import { catchError } from "rxjs/operators";
+import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Observable, of } from 'rxjs';
+import { catchError } from 'rxjs/operators';
 
-import { ErrorDialogComponent } from "../../../shared/components/error-dialog/error-dialog.component";
-import { Course } from "../../model/course";
-import { CoursesService } from "../../services/courses.service";
+import { ErrorDialogComponent } from '../../../shared/components/error-dialog/error-dialog.component';
+import { Course } from '../../model/course';
+import { CoursesService } from '../../services/courses.service';
 
 @Component({
-  selector: "app-courses",
-  templateUrl: "./courses.component.html",
-  styleUrls: ["./courses.component.scss"],
+  selector: 'app-courses',
+  templateUrl: './courses.component.html',
+  styleUrls: ['./courses.component.scss']
 })
 export class CoursesComponent implements OnInit {
+
   courses$: Observable<Course[]>;
 
   constructor(
@@ -22,27 +23,29 @@ export class CoursesComponent implements OnInit {
     private router: Router,
     private route: ActivatedRoute
   ) {
-    this.courses$ = this.coursesService.list().pipe(
-      catchError((error) => {
-        this.onError("Erro ao carregar cursos.");
-        return of([]);
-      })
-    );
+    this.courses$ = this.coursesService.list()
+      .pipe(
+        catchError(error => {
+          this.onError('Erro ao carregar cursos.');
+          return of([])
+        })
+      );
   }
 
   onError(errorMsg: string) {
     this.dialog.open(ErrorDialogComponent, {
-      data: errorMsg,
+      data: errorMsg
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 
   onAdd() {
-    this.router.navigate(["new"], { relativeTo: this.route });
+    this.router.navigate(['new'], { relativeTo: this.route });
   }
 
   onEdit(course: Course) {
-    this.router.navigate(["edit", course._id], { relativeTo: this.route });
+    this.router.navigate(['edit', course._id], { relativeTo: this.route });
   }
+
 }
