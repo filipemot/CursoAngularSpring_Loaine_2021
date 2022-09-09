@@ -26,3 +26,4 @@
  - Aula 23 - CRUD Angular + Spring | 23 - Angular Typed Forms
  - Aula 24 - CRUD Angular + Spring | 24: Refatoração Angular Material Table
  - Aula 25 - CRUD Angular + Spring | 25: Componentes Inteligentes x Componentes de Apresentação
+ - Aula 26 - CRUD Angular + Spring | 26: API Spring: Buscar por ID
