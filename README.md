@@ -29,3 +29,4 @@
  - Aula 26 - CRUD Angular + Spring | 26 - API Spring: Buscar por ID
  - Aula 27 - CRUD Angular + Spring | 27 - Atualizar Curso - Angular Resolver: Buscar por ID
  - Aula 28 - CRUD Angular + Spring | 28 - Atualizar Curso: Populando o Formulário
+ - Aula 29 - CRUD Angular + Spring | 29: Atualizar Curso: Salvando o Formulário
