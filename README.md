@@ -32,3 +32,4 @@
  - Aula 29 - CRUD Angular + Spring | 29: Atualizar Curso: Salvando o Formulário
  - Aula 30 - CRUD Angular + Spring | 30: Atualizar Curso: API Spring HTTP PUT
  - Aula 31 - CRUD Angular + Spring | 31: Remover Curso: API Spring HTTP DELETE
+ - Aula 32 - CRUD Angular + Spring | 32: Remover Curso
