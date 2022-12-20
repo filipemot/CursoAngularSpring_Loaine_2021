@@ -34,3 +34,4 @@
  - Aula 31 - CRUD Angular + Spring | 31: Remover Curso: API Spring HTTP DELETE
  - Aula 32 - CRUD Angular + Spring | 32: Remover Curso
  - Aula 33 - CRUD Angular + Spring | 33: Dialog de Confirmação
+ - Aula 34 - CRUD Angular + Spring | 34: Validações de Formulário no Front-end
