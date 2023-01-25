@@ -36,3 +36,4 @@
  - Aula 33 - CRUD Angular + Spring | 33: Dialog de Confirmação
  - Aula 34 - CRUD Angular + Spring | 34: Validações de Formulário no Front-end
  - Aula 35 - CRUD Angular + Spring | 35: Validações da API com Java Bean Validation
+ - Aula 36 - CRUD Angular + Spring | 36: Remoção Lógica (Soft Delete)
