@@ -40,4 +40,5 @@
  - Aula 37 - CRUD Angular + Spring | 37: Spring Boot 3 (Spring 6)
  - Aula 38 - CRUD Angular + Spring | 38: Upgrade Angular v15 com Angular Material
  - Aula 39 - CRUD Angular + Spring | 39: Adicionando Camada de Serviço na API
+ - Aula 40 - CRUD Angular + Spring | 40: Tratando Exceções com Controller Advice
  
