@@ -41,4 +41,5 @@
  - Aula 38 - CRUD Angular + Spring | 38: Upgrade Angular v15 com Angular Material
  - Aula 39 - CRUD Angular + Spring | 39: Adicionando Camada de Serviço na API
  - Aula 40 - CRUD Angular + Spring | 40: Tratando Exceções com Controller Advice
+ - Aula 41 - CRUD Angular + Spring | 41: Padrão DTO (Data Transfer Object)
  
