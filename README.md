@@ -42,4 +42,5 @@
  - Aula 39 - CRUD Angular + Spring | 39: Adicionando Camada de Serviço na API
  - Aula 40 - CRUD Angular + Spring | 40: Tratando Exceções com Controller Advice
  - Aula 41 - CRUD Angular + Spring | 41: Padrão DTO (Data Transfer Object)
+ - Aula 42 - CRUD Angular + Spring | 42: Padrão Mapper
  
