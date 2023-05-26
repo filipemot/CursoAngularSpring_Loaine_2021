@@ -1,6 +1,7 @@
 package com.br.luisfilipemotame.dto.mapper;
 
 import com.br.luisfilipemotame.dto.CourseDTO;
+import com.br.luisfilipemotame.enums.Category;
 import com.br.luisfilipemotame.model.Course;
 import org.springframework.stereotype.Component;
 
@@ -11,7 +12,7 @@ public class CourseMapper {
         if (course == null) {
             return null;
         }
-        return new CourseDTO(course.getId(), course.getName(), course.getCategory());
+        return new CourseDTO(course.getId(), course.getName(), "Front-end");
     }
 
     public Course toEntity(CourseDTO courseDTO) {
@@ -25,7 +26,7 @@ public class CourseMapper {
             course.setId(courseDTO.id());
         }
         course.setName(courseDTO.name());
-        course.setCategory(courseDTO.category());
+        course.setCategory(Category.FRONT_END);
         course.setStatus("Ativo");
         return course;
     }

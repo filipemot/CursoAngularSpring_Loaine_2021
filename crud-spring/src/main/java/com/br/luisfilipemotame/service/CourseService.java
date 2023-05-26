@@ -2,6 +2,7 @@ package com.br.luisfilipemotame.service;
 
 import com.br.luisfilipemotame.dto.CourseDTO;
 import com.br.luisfilipemotame.dto.mapper.CourseMapper;
+import com.br.luisfilipemotame.enums.Category;
 import com.br.luisfilipemotame.exception.RecordNotFoundException;
 import com.br.luisfilipemotame.repository.CourseRepository;
 import jakarta.validation.Valid;
@@ -46,7 +47,7 @@ public class CourseService {
         return courseRepository.findById(id)
                 .map(recordFound -> {
                     recordFound.setName(course.name());
-                    recordFound.setCategory(course.category());
+                    recordFound.setCategory(Category.FRONT_END);
                     return courseMapper.toDTO(courseRepository.save(recordFound));
                 }).orElseThrow(() -> new RecordNotFoundException(id));
     }
