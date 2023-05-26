@@ -1,12 +1,13 @@
 package com.br.luisfilipemotame.model;
 
 import com.br.luisfilipemotame.enums.Category;
+import com.br.luisfilipemotame.enums.Status;
 import com.br.luisfilipemotame.enums.converters.CategoryConverter;
+import com.br.luisfilipemotame.enums.converters.StatusConverter;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 import lombok.Data;
 import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.Where;
@@ -36,8 +37,7 @@ public class Course {
     private Category category;
 
     @NotNull
-    @Length(max = 10)
-    @Pattern(regexp = "Ativo|Inativo")
     @Column(length = 10, nullable = false)
-    private String status = "Ativo";
+    @Convert(converter = StatusConverter.class)
+    private Status status = Status.ACTIVE;
 }
