@@ -43,5 +43,7 @@
  - Aula 40 - CRUD Angular + Spring | 40: Tratando Exceções com Controller Advice
  - Aula 41 - CRUD Angular + Spring | 41: Padrão DTO (Data Transfer Object)
  - Aula 42 - CRUD Angular + Spring | 42: Padrão Mapper
- - Aula 43 - CRUD Angular + Spring | 44: Persistência de Enums no JPA (parte 2)
+ - Aula 43 - CRUD Angular + Spring | 43: Persistência de Enums no JPA
+ - Aula 44 - CRUD Angular + Spring | 44: Persistência de Enums no JPA (parte 2)
+ - Aula 45 - CRUD Angular + Spring | 45: Curso-Aulas: OneToMany
  
