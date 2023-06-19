@@ -46,4 +46,5 @@
  - Aula 43 - CRUD Angular + Spring | 43: Persistência de Enums no JPA
  - Aula 44 - CRUD Angular + Spring | 44: Persistência de Enums no JPA (parte 2)
  - Aula 45 - CRUD Angular + Spring | 45: Curso-Aulas: OneToMany
+ - Aula 46 - CRUD Angular + Spring | 46: Curso-Aulas: Listando Aulas
  
