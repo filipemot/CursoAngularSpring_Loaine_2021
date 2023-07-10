@@ -45,8 +45,8 @@ public class CourseService {
         return courseRepository.findById(id)
                 .map(recordFound -> {
                     Course course = courseMapper.toEntity(courseDTO);
-                    recordFound.setName(courseDTO.getName());
-                    recordFound.setCategory(courseMapper.convertCategoryValue(courseDTO.getCategory()));
+                    recordFound.setName(courseDTO.name());
+                    recordFound.setCategory(courseMapper.convertCategoryValue(courseDTO.category()));
                     recordFound.getLessons().clear();
                     course.getLessons().forEach(recordFound.getLessons()::add);
                     return courseMapper.toDTO(courseRepository.save(recordFound));
