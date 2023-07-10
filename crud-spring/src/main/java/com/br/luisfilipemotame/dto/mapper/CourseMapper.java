@@ -33,17 +33,17 @@ public class CourseMapper {
         }
 
         Course course = new Course();
-        if (courseDTO.id() != null) {
-            course.setId(courseDTO.id());
+        if (courseDTO.getId() != null) {
+            course.setId(courseDTO.getId());
         }
-        course.setName(courseDTO.name());
-        course.setCategory(convertCategoryValue(courseDTO.category()));
+        course.setName(courseDTO.getName());
+        course.setCategory(convertCategoryValue(courseDTO.getCategory()));
 
-        List<Lesson> lessons = courseDTO.lessons().stream().map(lessonDTO -> {
+        List<Lesson> lessons = courseDTO.getLessons().stream().map(lessonDTO -> {
             var lesson = new Lesson();
-            lesson.setId(lessonDTO.id());
-            lesson.setName(lessonDTO.name());
-            lesson.setYoutubeUrl(lessonDTO.youtubeUrl());
+            lesson.setId(lessonDTO.getId());
+            lesson.setName(lessonDTO.getName());
+            lesson.setYoutubeUrl(lessonDTO.getYoutubeUrl());
             lesson.setCourse(course);
             return lesson;
         }).collect(Collectors.toList());
@@ -56,10 +56,14 @@ public class CourseMapper {
         if (value == null) {
             return null;
         }
-        return switch (value) {
-            case "Front-end" -> Category.FRONT_END;
-            case "Back-end" -> Category.BACK_END;
-            default -> throw new IllegalArgumentException("Categoria inválida: " + value);
+
+        Category category = null;
+        switch (value) {
+            case "Front-end": { category = Category.FRONT_END; break;}
+            case "Back-end":{ category = Category.BACK_END; break;}
+            default: throw new IllegalArgumentException("Categoria inválida: " + value);
         };
+
+        return category;
     }
 }

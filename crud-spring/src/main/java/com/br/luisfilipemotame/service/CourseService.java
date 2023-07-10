@@ -17,7 +17,6 @@ import java.util.stream.Collectors;
 @Validated
 @Service
 public class CourseService {
-
     private final CourseRepository courseRepository;
     private final CourseMapper courseMapper;
 
@@ -46,9 +45,8 @@ public class CourseService {
         return courseRepository.findById(id)
                 .map(recordFound -> {
                     Course course = courseMapper.toEntity(courseDTO);
-                    recordFound.setName(courseDTO.name());
-                    recordFound.setCategory(courseMapper.convertCategoryValue(courseDTO.category()));
-                    // recordFound.setLessons(course.getLessons());
+                    recordFound.setName(courseDTO.getName());
+                    recordFound.setCategory(courseMapper.convertCategoryValue(courseDTO.getCategory()));
                     recordFound.getLessons().clear();
                     course.getLessons().forEach(recordFound.getLessons()::add);
                     return courseMapper.toDTO(courseRepository.save(recordFound));
