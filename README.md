@@ -50,5 +50,6 @@
  - Aula 47 - CRUD Angular + Spring | 47: Curso-Aulas: Aula DTO
  - Aula 48 - CRUD Angular + Spring | 48: Curso-Aulas: Interface Aulas
  - Aula 49 - CRUD Angular + Spring | 49: Curso-Aulas: FormArray
+ - Aula 50 - CRUD Angular + Spring | 50: Curso-Aulas: FormArray HTML
  
  
