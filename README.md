@@ -53,5 +53,7 @@
  - Aula 50 - CRUD Angular + Spring | 50: Curso-Aulas: FormArray HTML
  - Aula 51 - CRUD Angular + Spring | 51: Curso-Aulas: Adicionar e Remover Aulas
  - Aula 52 - CRUD Angular + Spring | 52: Curso-Aulas: Validação do FormArray
+ - Aula 53 - CRUD Angular + Spring | 53: Classe Utilitária para Validação de Formulários
+ 
  
  
